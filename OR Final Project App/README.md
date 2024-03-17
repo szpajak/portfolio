@@ -1,6 +1,6 @@
 # Premier League Schedule Optimization
 
-This repository contains the code and files for optimizing the schedule of the Premier League using Operations Research techniques. App created as a final project for a subject Operations Research. It was made in pairs. As it is stated in the report the contributors are: Szymon Pająk (me) and Klaudiusz Grobelski (my colleague).
+This repository contains the code and files for optimizing the schedule of the Premier League using Operations Research techniques. App created as a final project for a subject Operations Research. It was made in pairs. As it is stated in the report the contributors are: Szymon Pająk (me) and Klaudiusz Grobelski (my colleague). For more informations about the project check section Final Report.
 
 ## Table of Contents
 - [Sample screenshots](#sample-screenshots)
@@ -34,7 +34,7 @@ python GUI.py
 An executable file will be created automatically, and the GUI for optimizing the Premier League schedule will be displayed.
 
 ## Final Report
-To view the final report detailing the optimization process and results, follow these steps:
+To view the final report about the optimization process, results and detailed description of our every move, follow these steps:
 1. Open the "FINAL REPORT" folder in the project directory.
 2. Open the "FINAL_REPORT.html" file in your web browser.
 
