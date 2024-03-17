@@ -49,7 +49,7 @@ This repository contains the code and files for optimizing the schedule of the P
 
 The example screenshot of the app:
 
-<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/Grafiki/app_start_screen.png" height="160" width="240">
+<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/Grafiki/app_start_screen.png" height="320" width="480">
 
 
 
