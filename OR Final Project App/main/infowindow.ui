@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>412</width>
+    <height>204</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>INFORMACJA</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>391</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Gothic</family>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Algorytm działa lepiej, gdy wybierzesz&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;mutację!&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Czy na pewno chcesz kontynuować?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Gothic</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(229, 239, 0);
+border: none;
+padding-top: 5px;
+color: rgb(60, 4, 57);
+border-right: 3px solid rgb(191, 198, 0);
+border-bottom: 4px solid rgb(191, 198, 0);
+border-left:none;
+border-radius: 5px;
+}
+
+QPushButton:hover {
+background-color: rgb(238, 243, 0);
+border-right: 3px solid rgb(191, 198, 0);
+border-bottom: 4px solid rgb(191, 198, 0);
+border-left:none;
+border-radius: 5px;
+}
+
+QPushButton:pressed{
+background-color: rgb(206, 213, 0);
+border-left: 4px solid rgb(191, 198, 0);
+border-top: 5px solid rgb(191, 198, 0);
+border-right:none;
+padding-top: -5px;
+border-bottom:none
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Tak</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>140</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Gothic</family>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(229, 239, 0);
+border: none;
+padding-top: 5px;
+color: rgb(60, 4, 57);
+border-right: 3px solid rgb(191, 198, 0);
+border-bottom: 4px solid rgb(191, 198, 0);
+border-left:none;
+border-radius: 5px;
+}
+
+QPushButton:hover {
+background-color: rgb(238, 243, 0);
+border-right: 3px solid rgb(191, 198, 0);
+border-bottom: 4px solid rgb(191, 198, 0);
+border-left:none;
+border-radius: 5px;
+}
+
+QPushButton:pressed{
+background-color: rgb(206, 213, 0);
+border-left: 4px solid rgb(191, 198, 0);
+border-top: 5px solid rgb(191, 198, 0);
+border-right:none;
+padding-top: -5px;
+border-bottom:none
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Nie</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
