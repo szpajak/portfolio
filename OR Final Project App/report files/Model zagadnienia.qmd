@@ -1,0 +1,74 @@
+---
+title: "Model zagadnienia" 
+author: "Klaudiusz Grobelski, Szymon Pająk" 
+format: html 
+editor: visual 
+---
+
+# 
+
+## Zagadnienie stworzenia terminarzu spotkań Premier League
+
+Zagadnienie harmonogramowania meczów w Premier League ma na celu skonstruowanie efektywnego i atrakcyjnego harmonogramu spotkań na dany sezon ligi piłkarskiej. Harmonogram meczów ma ogromne znaczenie zarówno sportowe, jak i komercyjne. Ma za zadanie maksymalizować atrakcyjność dla kibiców, zapewnić uczciwą rywalizację oraz uwzględniać wiele złożonych ograniczeń.
+
+## Konieczne do rozwiązania problemu są takie informacje jak:
+
+-   Dane dotyczące popularności danej drużyny.
+
+-   Informacje związane z godzinami oraz dniami, w których kibice najchętniej oglądają mecze.
+
+-   Dane dotyczące obecnych godzin rozegranych spotkań, oraz w jakich dniach.
+
+-   Informacje dotyczące stadionu.
+
+## Przyjęte uproszczenia:
+
+-   Nie przewidujemy spotkań nierozegranych z przyczyn losowych np. pogodowych. Oznacza to, że mecz zaplanowany na dany dzień i godzinę odbędzie się.
+
+-   Nie uwzględniamy meczów pucharowych, z tego względu nie planujemy spotkań w ciągu tygodnia. Możliwe terminy spotkań to piątek, sobota, niedziela oraz poniedziałek (tak jak jest to w rzeczywistości).
+
+-   Każda drużyna gra na innym stadionie.
+
+# Model matematyczny
+
+## Struktury danych
+
+-   $t_i, w_i$ - nazwa oraz waga (poziom atrakcyjności) i-tej drużyny
+
+-   $s_i$ - atrakcyjność stadionu i-tej drużyny
+
+-   $id_i$ - id i-tego meczu
+
+-   $r_i$ - atrakcyjność i-tej kolejki
+
+-   $h_i$ - atrakcyjność i-tej godziny meczu
+
+-   $K$ - liczba meczów w sezonie
+
+## Warunki ograniczające
+
+-   Każda drużyna musi zagrać z każdą z pozostałych dwa mecze (jeden u siebie, a drugi na wyjeździe)
+-   W danej kolejce drużyna może rozegrać dokładnie jeden mecz.
+-   Terminy kolejek są ściśle ustalone.
+-   Minimalny „odpoczynek" drużyny po meczu to 4 dni.
+-   Maksymalna liczba meczy domowych z rzędu wynosi 2 mecze.
+
+## Postać rozwiązania
+
+-   Stworzenie terminarza zawierającego daty wraz z godzinami dla wszystkich meczów w danym sezonie Premier League.
+
+## Postać funkcji celu
+
+-   Maksymalizacja atrakcyjności meczów możliwych do obejrzenia przez kibica, przy uwzględnieniu ograniczeń.'
+
+$$
+F_{celu} = \sum_{id = 1}^K A_{id}
+$$
+
+gdzie:
+
+-   $A_{id} = w_i * w_j * s_i* h_k * r_l$
+
+## Dopuszczalność rozwiązania - spełnienie ograniczeń:
+
+-   Rozwiązanie musi spełniać wszystkie określone ograniczenia czasowe, logistyczne i sportowe, takie jak minimalny "odpoczynek" drużyn czy liczba meczy domowych z rzędu.

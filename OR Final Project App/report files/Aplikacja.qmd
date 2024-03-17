@@ -1,0 +1,80 @@
+---
+title: "Aplikacja"
+author: "Klaudiusz Grobelski, Szymon Pająk" 
+format: html 
+editor: visual
+---
+
+## Wymagania odnośnie uruchomienia
+
+Aplikacja uruchamiana jest przy pomocy pliku **GUI.py**. Po uruchomieniu pojawi się ekran główny, na którym poza grafiką zawierającą wszystkie drużyny występujące w Premier League, jest także panel do wpisywania parametrów algorytmu.
+
+Z racji charakteru problemu (tj. każdy osobnik jest w postaci macierzy 20x20) czas potrzebny na wykonanie obliczeń może chwilę trwać. W związku z tym przy większych liczbach należy cierpliwie poczekać na rezultat.
+
+## Wygląd
+
+Na poniższych grafikach został zaprezentowany wygląd aplikacji dla przykładowych parametrów.
+
+![*Ekran startowy*](images/Zrzut ekranu 2024-03-17 170509.png){width="600"}
+
+![*Przebieg funkcji celu*](images/Zrzut ekranu 2024-03-17 1707352.png){width="600"}
+
+![*Obliczony terminarz - Kolejka 1*](images/Zrzut ekranu 2024-03-17 1708593.png){width="600"}
+
+![*Obliczony terminarz - Kolejka 33*](images/Zrzut ekranu 2024-03-17 1709514.png){width="600"}
+
+## Dodatkowe komunikaty
+
+Aplikacja przewiduje możliwość wpisania błędnych danych. W takim przypadku wyświetli stosowne okienko z komunikatem. Zatem nie trzeba się obawiać, że "długi czas obliczeń" jest tak naprawdę błędem.\
+Typowe przykłady błędów to np.:
+
+-   brak zaznaczenia rodzaju selekcji
+
+-   rozmiar populacji początkowej mniejszy od rozmiaru pokolenia
+
+-   rozmiaru pokolenia mniejszy od wielkości turnieju/rankingu
+
+-   podanie procentowej ilości mutacji mimo braku zaznaczonego jakiegokolwiek rodzaju mutacji
+
+-   podanie stopnia mutacji mimo braku zaznaczonego jakiegokolwiek rodzaju mutacji
+
+W naszym problemie ze względu na jego specyfikę kluczowym elementem jest zastosowanie mutacji. Z tego powodu jeśli użytkownik nie wybierze żadnej mutacji, bądź pozostawi, któryś z parametrów "Procentowa ilość mutacji" lub "Stopień mutacji" równy zero, zostanie o tym poinformowany w postaci stosownego komuniaktu.
+
+## Format wyników
+
+Otrzymany w danej iteracji programu wynik wyświetlany jest na dwa sposoby. W pierwszym okienku pojawia się pełny terminarz na cały sezon oraz maksymalna wartość funkcji celu (tj. wartość dla której stworzono terminarz). W oknie można zaznaczyć interesującą użytkownika kolejkę i zobaczyć terminarz spotkań na daną kolejkę, jako herby drużyn oraz dzień i godzinę meczu. Drużyna będąca gospodarzem jest po lewej stronie.\
+W drugim oknie natomiast wyświetlany jest przebieg wartości funkcji celu w każdej iteracji (zaznaczony kolorem czerwonym). Dodatkowo zieloną linią oznaczono maksymalną otrzymaną wartość funkcji celu.
+
+## Funkcjonalność
+
+-   Pole "Rozmiar populacji początkowej" pozwala podać rozmiar populacji i dostosować go do potrzeb danego testu. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 1-1000.
+
+-   Pole "Rozmiar pokolenia" pozwala podać rozmiar pokolenia i dostosować go do potrzeb danego testu. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 1-1000.
+
+-   Checkbox "Rodzaj selekcji" pozwala wybrać między dwoma rodzajami selekcji (zostały one omówione w sekcji sprawozdania "Algorytm"):
+
+    -   selekcja rankingowa
+
+    -   selekcja turniejowa
+
+-   Pole "Wielkość turnieju/rankingu" pozwala podać rozmiar turnieju bądź rankingu (odpowiednio dla zaznaczonego rodzaju selekcji) i dostosować go do potrzeb danego testu. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 1-100.
+
+-   Pole "Procentowa ilość elity" pozwala podać rozmiar elity (pojęcie zostało omówione w sekcji sprawozdania "Algorytm") i dostosować go do potrzeb danego testu. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 0-100.
+
+-   Checkbox "Rodzaje mutacji" pozwala wybrać mutację. Można wybrać od zera do czterech mutacji (ich szczegóły zostały omówione w sekcji sprawozdania "Algorytm"):
+
+    -   zmiana gospodarza
+
+    -   zmiana kolejki
+
+    -   zmiana godziny 1. część sezonu
+
+    -   zmiana godziny 2. część sezonu
+
+-   Pole "Procentowa ilość mutacji" pozwala podać jaki odsetek populacji ma zostać zmutowany. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 0-100.
+
+-   Pole "Stopień mutacji" pozwala podać jaki odsetek meczów w danym osobniku ma zostać zmutowany. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 0-100.
+
+-   Przycisk "Oblicz" rozpoczyna obliczenia algorytmu. W przypadku wyświetlenia się komunikatu o błędzie należy zmienić parametry i ponownie kliknąć przycisk.
+
+-   Przycisk "Wyczyść" ustawia wszystkie pola liczbowe jako puste.

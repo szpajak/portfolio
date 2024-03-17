@@ -1,0 +1,28 @@
+---
+title: "Przedstawienie projektu"
+author: "Klaudiusz Grobelski, Szymon Pająk"
+format: html
+editor: visual
+---
+
+## Zagadnienie stworzenia terminarzu spotkań Premier League
+
+Zagadnienie harmonogramowania meczów w Premier League ma na celu skonstruowanie efektywnego i atrakcyjnego harmonogramu spotkań na dany sezon ligi piłkarskiej. Harmonogram meczów ma ogromne znaczenie zarówno sportowe, jak i komercyjne. Ma za zadanie maksymalizować atrakcyjność dla kibiców, zapewnić uczciwą rywalizację oraz uwzględniać wiele złożonych ograniczeń.
+
+## Konieczne do rozwiązania problemu są takie informacje jak:
+
+-   Dane dotyczące popularności danej drużyny.
+
+-   Informacje związane z godzinami oraz dniami, w których kibice najchętniej oglądają mecze.
+
+-   Dane dotyczące obecnych godzin rozegranych spotkań, oraz w jakich dniach.
+
+-   Informacje dotyczące stadionu.
+
+## Przyjęte uproszczenia:
+
+-   Nie przewidujemy spotkań nierozegranych z przyczyn losowych np. pogodowych. Oznacza to, że mecz zaplanowany na dany dzień i godzinę odbędzie się.
+
+-   Nie uwzględniamy meczów pucharowych, z tego względu nie planujemy spotkań w ciągu tygodnia. Możliwe terminy spotkań to piątek, sobota, niedziela oraz poniedziałek (tak jak jest to w rzeczywistości).
+
+-   Każda drużyna gra na innym stadionie.

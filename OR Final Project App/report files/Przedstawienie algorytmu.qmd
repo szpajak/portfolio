@@ -1,0 +1,59 @@
+---
+title: "Przedstawienie algorytmu"
+format: html
+editor: visual
+---
+
+# Opis teoretyczny
+
+Algorytm ewolucyjny przeszukuje przestrzeń rozwiązań problemu w celu wyszukania najlepszego rozwiązania. Sposób działania algorytmu wzorowany jest na ewolucji biologicznej. Operujemy na określonej populacji, czyli pewnej liczbie jednostek oraz na numerze ich generacji.
+
+![Pseudokod algorytmu genetycznego](Grafiki/pseudokod.jpg){fig-align="center" width="450"}
+
+# Elementy algorytmu ewolucyjnego
+
+-   metoda kodowania
+
+-   metoda inicjalizacji populacji początkowej
+
+-   metoda selekcji - wybór rodziców i operatorów pseudogenetycznych
+
+-   kryterium oceny rozwiązania
+
+-   parametry sterujące pracą algorytmu
+
+    ## Inicjalizacja populacji początkowej
+
+    W pierwszym kroku algorytmu musimy zainicjalizować populację początkową, możemy dokonać tego na dwa sposoby, metodą losową lub metodą konstrukcji lub popraw. W algorytmie ewolucyjnym zalecaną metodą jest metoda losowa, która zapewnia zróżnicowanie populacji startowej.
+
+    ## Metoda selekcji
+
+    W następnym kroku musimy zdecydować w jaki sposób będziemy tworzyć nową populację. Jest to tego wiele możliwości
+
+-   selekcja rankingowa, która polega na posortowaniu osobników według wartości ich przystosowania, nadając pewną rangę, każdemu z osobników.
+
+-   selekcja turniejowa - dzielimy osobniki na losowe podgrupy, a następniej wybieramy z każdej z nich osobnika o najlepszym przystosowaniu. Wybór taki może być deterministyczny (z prawdopodobieństem = 1) lub stochastyczny/losowy, gdzie prawdopodobieństow jest mniejsze od 1.
+
+-   selekcja progowa - osobniki powyżej określonej wartości funkcji celu zostają rodzicami
+
+-   selekcja koła ruletki - polega na przydzieleniu każdemu osobnikowi pewnego fragmentu koła ruletki według ich przystowoswania.
+
+    ## Strategia ewolucyjna
+
+    W algorytmie możemy wykorzystać dwie strategie ewolucyjne. Pierwsza z nich polega na tworzeniu potomków z poprzedniej populacji, oznacza to że populacja trwa tylko przez jedno pokolenie. Natomiast inna strategia polega na utworzeniu z rodziców określonej liczby potomków, a następnie wybraniu z pokolenia rodziców i dzieci nowego pokolenia.
+
+    ## Krzyżowanie i mutacja
+
+    Kolejnym ważnym etapem algorytmu jest etap mutacji oraz krzyżowania. Operacja krzyżowania rozumiemy analogicznie do rozmnażania osobników w przyrodzie, oznacza to że nowo utworzony potomek otrzyma losową kombinację genów od dwóch rodziców, lub możemy zaimplementować również, że tylko część genów zostanie odziedziczonych przez potomka, natomiast reszta jest losowa. Następnie przechodzimy do operacji mutacji, która polega na zróżnicowaniu osobników, jest stosowana dla kilku losowych osobników populacji. Dzięki mutacjom otrzymujemy duża różnorodność rozwiązań, jednak powoduje to również zepsucie dobrego rozwiązania. Mutacje mogą polegać na:
+
+-   zmianie wartości losowo wybranego genu
+
+-   zmianie kilku losowo wybranych genów
+
+-   przesunięciu genów
+
+-   operacji inwersji
+
+-   operacji tasującej, czyli zmianie położeń genów
+
+    ## 

@@ -1,0 +1,74 @@
+---
+title: "Model matematyczny"
+format: 
+  html: default
+editor: visual
+---
+
+## Struktury danych
+
+-   $t_i, w_i$ - nazwa oraz waga (poziom atrakcyjności) i-tej drużyny
+
+-   $s_i$ - atrakcyjność stadionu i-tej drużyny
+
+-   $id_i$ - id i-tego meczu
+
+-   $r_i$ - atrakcyjność i-tej kolejki
+
+-   $h_i$ - atrakcyjność i-tej godziny meczu
+
+-   $K$ - liczba meczów w sezonie
+
+## Warunki ograniczające
+
+-   Każda drużyna musi zagrać z każdą z pozostałych dwa mecze (jeden u siebie, a drugi na wyjeździe)
+-   W danej kolejce drużyna może rozegrać dokładnie jeden mecz.
+-   Terminy kolejek są ściśle ustalone.
+-   Minimalny „odpoczynek" drużyny po meczu to 4 dni.
+-   Maksymalna liczba meczy domowych z rzędu wynosi 2 mecze.
+
+## Postać rozwiązania
+
+-   Stworzenie terminarza zawierającego daty wraz z godzinami dla wszystkich meczów w danym sezonie Premier League.
+
+## Postać funkcji celu
+
+-   Maksymalizacja atrakcyjności meczów możliwych do obejrzenia przez kibica, przy uwzględnieniu ograniczeń.'
+
+$$
+F_{celu} = \sum_{id = 1}^K A_{id}
+$$
+
+gdzie:
+
+-   $A_{id} = w_i + w_j + s_i+ h_k + r_l$
+
+-   $\lambda$ - współczynnik pozwalający na dostosowanie wpływu drugiego składnika na funkcję celu
+
+## Dopuszczalność rozwiązania - spełnienie ograniczeń:
+
+-   Rozwiązanie musi spełniać wszystkie określone ograniczenia czasowe, logistyczne i sportowe, takie jak minimalny "odpoczynek" drużyn czy liczba meczy domowych z rzędu.
+
+## Metoda kodowania
+
+-   Wariant ułożenia genów klasyczny
+-   Gentyp ułożone w postaci macierzy zespołów 20x20.
+-   Wartości przechowywane w genach bedą liczbami rzeczywistymi.
+
+## Inicjalizacja populacji początkowej
+
+-   losowe generowanie populacji rozwiązań początkowych zgodnie z rozkładem równomiernym, przy uwzględnieniu ograniczeń.
+
+## Metoda selekcji
+
+**Metoda turniejowa**
+
+Z populacji wybiera się ilość osobników (tzw. rozmiar turnieju, która kwalifikuje się do zawodów). Następnie dwa najlepsze osobniki są wybierane jako rodzice dla nowego osobnika. Rozmiar turnieju jest stały dla każdej instancji testowej, jednak jego dobór jest losowy. Przedmiotem badania jest również wpływ wielkości turnieju na osiągane najlepsze rozwiązanie.
+
+Selekcja polega na utworzeniu w każdej iteracji selekcji z 10 rodziców 100 potomków, a następnie stworzenie nowego pokolenia o liczebności 100 (tj. rodzice mogą trwać dłużej niż jedno pokolenie).
+
+## Krzyżowanie i mutacje
+
+-   Porównywanie terminarzy rodziców parami. Te same wartości komórek macierzy zespołów pozostaną niezmienione, natomiast pozostałe wartości komórek zostaną wymieszane losowo. Analogia do dziedziczenia grupy krwi po rodzicach.
+
+-   Rozpatrujemy trzy rodzaje mutacji: zmiana gospodarza, zmiana kolejki, zmiana godziny.

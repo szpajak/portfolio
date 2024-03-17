@@ -1,0 +1,55 @@
+---
+title: "Badanie algorytmu"
+format: 
+  html: default
+  pdf: default
+editor: visual
+---
+
+## Funkcjonalność aplikacji
+
+Aplikacja będzie składała się z początkowego interfejsu, gdzie użytkownik będzie mógł ustawić takie parametry jak:
+
+-   rozmiar populacji oraz ilość pokoleń;
+-   sposób wykonywania selekcji, do wyboru będzie selekcja turniejowa oraz rankingowa;
+-   rozmiar dla wybranego typu selekcji (tj. rozmiar turnieju lub rankingu);
+-   procentowy odsetek elity (tzn. rodziców, którzy nie wymierają w danym pokoleniu);
+-   rodzaj mutacji, procent całej populacji, która zostanie zmutowana oraz ile mutacji zostanie wykonanych na danym osobniku.
+
+Aplikacja nie potrzebuje wczytywania dodatkowych plików, ponieważ problem, który się pojawia jest zawsze identyczny. Aplikacja, po konfiguracji uruchamia nowe okno, w którym znajduje się ułożony cały terminarz. Wykresy, przebiegu pracy algorytmu zostaną wyświetlone w osobnej zakładce aplikacji. Ostateczne ustalenia dot. implementacji tego rozwiązania nie zostały jeszcze podjęte (na ten moment implementacja w GUI, jednak inne opcje są również rozważane).
+
+## Eksperymenty obliczeniowe
+
+W naszych badaniach, zajmiemy się poszczególnymi cechami takimi jak:
+
+-   wielkość populacji,
+
+-   ilość pokoleń,
+
+-   rodzaj wybranej selekcji,
+
+-   rodzaj mutacji,
+
+-   ilość krzyżowanych elementów,
+
+-   ilość zmutowanych elementów.
+
+W pierwszym kroku zajmiemy się badaniem wielkości populacji sprawdzając jak zmiana wielkości ma wpływ na otrzymanie wyniku końcowego, dla wszystkich wykorzystamy ten sam rodzaj krzyżowania oraz jedną mutacje.
+
+W podobny sposób będziemy badać rozmiar pokolenia. Tak jak wyżej, dla wszystkich wykorzystamy ten sam rodzaj selekcji oraz wykorzystamy jedną z mutacji.
+
+W kolejnym kroku zbadamy rodzaj wybranej selekcji dla takiego samego pokolenia początkowego, oraz tym razem nie wykorzystując żadnego z rodzajów mutacji. Rozmiar turnieju oraz selekcji również będzie taka sama.
+
+Badając rodzaj mutacji również, wykorzystamy tę samą populację początkową, oraz wybierzemy ten sam rodzaj selekcji. Dla wszystkich rodzajów wybierzemy taki sam procent zmutowanej populacji oraz ile elementów zostanie zmutowanych.
+
+W ostatnim kroku, będziemy badać ilość krzyżowanych oraz zmutowanych elementów, poprzez zmianę parametrów. Dla wszystkich zostanie wykorzystana takie samo pokolenie początkowe oraz taka sama ilość pokoleń.
+
+Naszym celem będzie znalezienie optymalnej konfiguracji, która pozwoli znaleźć największą wartość funkcji celu.
+
+## Prezentacja wizualna
+
+W naszej prezentacji chcielibyśmy zwrócić uwagę na zależności pamięciowe oraz czasowe, jak zwiększenie populacji oraz ilości pokoleń ma wpływ. Również, przedstawilibyśmy wykres funkcji celu od ilości iteracji. Na koniec przedstawimy, czas poszczególnych mutacji dla różnej wielkości pokoleń. Przedstawimy również średnią, najmniejszą oraz największą wartość na jednym wykresie, tak żeby móc zaobserwować różnice w poszczególnych pokoleniach.
+
+## Zmienne wynikowe
+
+W naszym algorytmie, będziemy w tablicy zapisywać najlepszego osobnika w każdym pokoleniu, czyli takiego, dla którego funkcja celu będzie największa, pozwoli to nam na obserwację jak zmieniała się wartość funkcji celu w poszczególnych pokoleniach.

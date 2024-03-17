@@ -1,0 +1,44 @@
+---
+title: "Podsumowanie"
+author: "Klaudiusz Grobelski, Szymon Pająk" 
+format: html 
+editor: visual
+---
+
+## Wnioski
+
+-   Algorytm ewolucyjny, dobrze poradził sobie z problemem znalezienia odpowiedniego terminarzu spotkań.
+
+-   Przeprowadzone testy przedstawiły tu co z nich wyjdzie
+
+-   Algorytm poprawnie znalazł terminarze, oraz wybrał odpowienie godziny oraz daty dla poszczególnych spotkań, z tego względu mógłby od zostać wykorzystany przez angielską federację piłkarską to utworzenia terminarzu wykorzytując jego zachowanie, natomiast ze względu na przyjęte uproszczenie musiałby on zostać lekko zmodyfikowany
+
+-   Algorytm po kilku przekształceniach może wyznaczać harmonogram spotkań nie tylko dla zespołów znajdujących się w lidze angielskiej.
+
+## Stwierdzone problemy
+
+Zaobserowaliśmy, że brak mutacji lub jej bardzo mały procent oraz stopień w jaki zostanie zmieniony osobnik powoduję małą lub brak poprawy funkcji celu. Natomiast implementacyjnym problemem było wymyślenie w jaki sposób w naszym przypadku krzyżować dwa różne termianrze w taki sposób, aby otrzymać nowe harmonogramu, które będą miały wspólne cechy ze swoimi rodzicami.
+
+## Kierunki dalszego rozwoju
+
+W dalszych krokach rozwoju naszego programu zajelibyśmy się opracjowaniem terminarzu, uwzględniając również krajowe mecze pucharowe oraz puchary międzynarodowe, oraz opracowali możliwość dodania własnych drużyn, terminów, dzięki czemu aplikacja mogłaby tworzyć terminarze nie tylko dla najlepszych lig świata, ale również dla osób, które planują turnieje miejskie ułatwiając im utworzenie odpowiedniego harmonogramu spotkań.
+
+## 
+
+## Podział pracy
+
++-------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+| Etap                    | Szymon Pająk                                                                                                 | Klaudiusz Grobelski                                                                                           |
++=========================+==============================================================================================================+===============================================================================================================+
+| Model zagadnienia       | 45%                                                                                                          | 55%                                                                                                           |
+|                         |                                                                                                              |                                                                                                               |
+|                         | Sformułowanie i wymyślenie zagadnienia; Potrzebne informacje; Struktury danych; Warunki ograniczające;       | Przyjęte uproszczenia; Struktury danych; Postać rozwiązania; Postać funkcji celu; Dopuszczalność rozwiązania; |
++-------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+| Algorytm - opracowanie  | 55%                                                                                                          | 45%                                                                                                           |
+|                         |                                                                                                              |                                                                                                               |
+|                         | Metoda inicjalizacji początkowej; Selekcja turniejowa; Selekcja rankingowa; Elita; Krzyżowanie; Mutacja 1-4; | Metoda kodowania; Selekcja turniejowa; Elita; Krzyżowanie; Mutacja 1-4;                                       |
++-------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+| Implementacja aplikacji | 50%                                                                                                          | 50%                                                                                                           |
+|                         |                                                                                                              |                                                                                                               |
+|                         | Linie kodu: 660/1320                                                                                         | Linie kodu: 660/1320                                                                                          |
++-------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+

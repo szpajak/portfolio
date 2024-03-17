@@ -1,0 +1,21 @@
+project:
+  type: website
+  render:
+      - Model zagadnienia.qmd
+      - Algorytm.qmd
+      - Aplikacja.qmd
+      - Testy.qmd
+      - Podsumowanie.qmd
+
+
+website:
+  title: "Badania Operacyjne"
+  navbar:
+    logo: Grafiki/pl_logo.jpg
+    left:
+      - Model zagadnienia.qmd
+      - Algorytm.qmd
+      - Aplikacja.qmd
+      - Testy.qmd
+      - Podsumowanie.qmd
+
