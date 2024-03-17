@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "Podsumowanie.html",
+    "href": "Podsumowanie.html",
+    "title": "Podsumowanie",
+    "section": "",
+    "text": "Algorytm ewolucyjny, dobrze poradził sobie z problemem znalezienia odpowiedniego terminarzu spotkań.\nPrzeprowadzone testy przedstawiły tu co z nich wyjdzie\nAlgorytm poprawnie znalazł terminarze, oraz wybrał odpowienie godziny oraz daty dla poszczególnych spotkań, z tego względu mógłby od zostać wykorzystany przez angielską federację piłkarską to utworzenia terminarzu wykorzytując jego zachowanie, natomiast ze względu na przyjęte uproszczenie musiałby on zostać lekko zmodyfikowany\nAlgorytm po kilku przekształceniach może wyznaczać harmonogram spotkań nie tylko dla zespołów znajdujących się w lidze angielskiej."
+  },
+  {
+    "objectID": "Podsumowanie.html#wnioski",
+    "href": "Podsumowanie.html#wnioski",
+    "title": "Podsumowanie",
+    "section": "",
+    "text": "Algorytm ewolucyjny, dobrze poradził sobie z problemem znalezienia odpowiedniego terminarzu spotkań.\nPrzeprowadzone testy przedstawiły tu co z nich wyjdzie\nAlgorytm poprawnie znalazł terminarze, oraz wybrał odpowienie godziny oraz daty dla poszczególnych spotkań, z tego względu mógłby od zostać wykorzystany przez angielską federację piłkarską to utworzenia terminarzu wykorzytując jego zachowanie, natomiast ze względu na przyjęte uproszczenie musiałby on zostać lekko zmodyfikowany\nAlgorytm po kilku przekształceniach może wyznaczać harmonogram spotkań nie tylko dla zespołów znajdujących się w lidze angielskiej."
+  },
+  {
+    "objectID": "Podsumowanie.html#stwierdzone-problemy",
+    "href": "Podsumowanie.html#stwierdzone-problemy",
+    "title": "Podsumowanie",
+    "section": "Stwierdzone problemy",
+    "text": "Stwierdzone problemy\nZaobserowaliśmy, że brak mutacji lub jej bardzo mały procent oraz stopień w jaki zostanie zmieniony osobnik powoduję małą lub brak poprawy funkcji celu. Natomiast implementacyjnym problemem było wymyślenie w jaki sposób w naszym przypadku krzyżować dwa różne termianrze w taki sposób, aby otrzymać nowe harmonogramu, które będą miały wspólne cechy ze swoimi rodzicami."
+  },
+  {
+    "objectID": "Podsumowanie.html#kierunki-dalszego-rozwoju",
+    "href": "Podsumowanie.html#kierunki-dalszego-rozwoju",
+    "title": "Podsumowanie",
+    "section": "Kierunki dalszego rozwoju",
+    "text": "Kierunki dalszego rozwoju\nW dalszych krokach rozwoju naszego programu zajelibyśmy się opracjowaniem terminarzu, uwzględniając również krajowe mecze pucharowe oraz puchary międzynarodowe, oraz opracowali możliwość dodania własnych drużyn, terminów, dzięki czemu aplikacja mogłaby tworzyć terminarze nie tylko dla najlepszych lig świata, ale również dla osób, które planują turnieje miejskie ułatwiając im utworzenie odpowiedniego harmonogramu spotkań."
+  },
+  {
+    "objectID": "Podsumowanie.html#podział-pracy",
+    "href": "Podsumowanie.html#podział-pracy",
+    "title": "Podsumowanie",
+    "section": "Podział pracy",
+    "text": "Podział pracy\n\n\n\n\n\n\n\n\nEtap\nSzymon Pająk\nKlaudiusz Grobelski\n\n\n\n\nModel zagadnienia\n45%\nSformułowanie i wymyślenie zagadnienia; Potrzebne informacje; Struktury danych; Warunki ograniczające;\n55%\nPrzyjęte uproszczenia; Struktury danych; Postać rozwiązania; Postać funkcji celu; Dopuszczalność rozwiązania;\n\n\nAlgorytm - opracowanie\n55%\nMetoda inicjalizacji początkowej; Selekcja turniejowa; Selekcja rankingowa; Elita; Krzyżowanie; Mutacja 1-4;\n45%\nMetoda kodowania; Selekcja turniejowa; Elita; Krzyżowanie; Mutacja 1-4;\n\n\nImplementacja aplikacji\n50%\nLinie kodu: 660/1320\n50%\nLinie kodu: 660/1320"
+  },
+  {
+    "objectID": "Aplikacja.html",
+    "href": "Aplikacja.html",
+    "title": "Aplikacja",
+    "section": "",
+    "text": "Aplikacja uruchamiana jest przy pomocy pliku GUI.py. Po uruchomieniu pojawi się ekran główny, na którym poza grafiką zawierającą wszystkie drużyny występujące w Premier League, jest także panel do wpisywania parametrów algorytmu.\nZ racji charakteru problemu (tj. każdy osobnik jest w postaci macierzy 20x20) czas potrzebny na wykonanie obliczeń może chwilę trwać. W związku z tym przy większych liczbach należy cierpliwie poczekać na rezultat."
+  },
+  {
+    "objectID": "Aplikacja.html#wymagania-odnośnie-uruchomienia",
+    "href": "Aplikacja.html#wymagania-odnośnie-uruchomienia",
+    "title": "Aplikacja",
+    "section": "",
+    "text": "Aplikacja uruchamiana jest przy pomocy pliku GUI.py. Po uruchomieniu pojawi się ekran główny, na którym poza grafiką zawierającą wszystkie drużyny występujące w Premier League, jest także panel do wpisywania parametrów algorytmu.\nZ racji charakteru problemu (tj. każdy osobnik jest w postaci macierzy 20x20) czas potrzebny na wykonanie obliczeń może chwilę trwać. W związku z tym przy większych liczbach należy cierpliwie poczekać na rezultat."
+  },
+  {
+    "objectID": "Aplikacja.html#wygląd",
+    "href": "Aplikacja.html#wygląd",
+    "title": "Aplikacja",
+    "section": "Wygląd",
+    "text": "Wygląd\nNa poniższych grafikach został zaprezentowany wygląd aplikacji dla przykładowych parametrów.\n\n\n\nEkran startowy\n\n\n\n\n\nPrzebieg funkcji celu\n\n\n\n\n\nObliczony terminarz - Kolejka 1\n\n\n\n\n\nObliczony terminarz - Kolejka 33"
+  },
+  {
+    "objectID": "Aplikacja.html#dodatkowe-komunikaty",
+    "href": "Aplikacja.html#dodatkowe-komunikaty",
+    "title": "Aplikacja",
+    "section": "Dodatkowe komunikaty",
+    "text": "Dodatkowe komunikaty\nAplikacja przewiduje możliwość wpisania błędnych danych. W takim przypadku wyświetli stosowne okienko z komunikatem. Zatem nie trzeba się obawiać, że “długi czas obliczeń” jest tak naprawdę błędem.\nTypowe przykłady błędów to np.:\n\nbrak zaznaczenia rodzaju selekcji\nrozmiar populacji początkowej mniejszy od rozmiaru pokolenia\nrozmiaru pokolenia mniejszy od wielkości turnieju/rankingu\npodanie procentowej ilości mutacji mimo braku zaznaczonego jakiegokolwiek rodzaju mutacji\npodanie stopnia mutacji mimo braku zaznaczonego jakiegokolwiek rodzaju mutacji\n\nW naszym problemie ze względu na jego specyfikę kluczowym elementem jest zastosowanie mutacji. Z tego powodu jeśli użytkownik nie wybierze żadnej mutacji, bądź pozostawi, któryś z parametrów “Procentowa ilość mutacji” lub “Stopień mutacji” równy zero, zostanie o tym poinformowany w postaci stosownego komuniaktu."
+  },
+  {
+    "objectID": "Aplikacja.html#format-wyników",
+    "href": "Aplikacja.html#format-wyników",
+    "title": "Aplikacja",
+    "section": "Format wyników",
+    "text": "Format wyników\nOtrzymany w danej iteracji programu wynik wyświetlany jest na dwa sposoby. W pierwszym okienku pojawia się pełny terminarz na cały sezon oraz maksymalna wartość funkcji celu (tj. wartość dla której stworzono terminarz). W oknie można zaznaczyć interesującą użytkownika kolejkę i zobaczyć terminarz spotkań na daną kolejkę, jako herby drużyn oraz dzień i godzinę meczu. Drużyna będąca gospodarzem jest po lewej stronie.\nW drugim oknie natomiast wyświetlany jest przebieg wartości funkcji celu w każdej iteracji (zaznaczony kolorem czerwonym). Dodatkowo zieloną linią oznaczono maksymalną otrzymaną wartość funkcji celu."
+  },
+  {
+    "objectID": "Aplikacja.html#funkcjonalność",
+    "href": "Aplikacja.html#funkcjonalność",
+    "title": "Aplikacja",
+    "section": "Funkcjonalność",
+    "text": "Funkcjonalność\n\nPole “Rozmiar populacji początkowej” pozwala podać rozmiar populacji i dostosować go do potrzeb danego testu. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 1-1000.\nPole “Rozmiar pokolenia” pozwala podać rozmiar pokolenia i dostosować go do potrzeb danego testu. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 1-1000.\nCheckbox “Rodzaj selekcji” pozwala wybrać między dwoma rodzajami selekcji (zostały one omówione w sekcji sprawozdania “Algorytm”):\n\nselekcja rankingowa\nselekcja turniejowa\n\nPole “Wielkość turnieju/rankingu” pozwala podać rozmiar turnieju bądź rankingu (odpowiednio dla zaznaczonego rodzaju selekcji) i dostosować go do potrzeb danego testu. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 1-100.\nPole “Procentowa ilość elity” pozwala podać rozmiar elity (pojęcie zostało omówione w sekcji sprawozdania “Algorytm”) i dostosować go do potrzeb danego testu. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 0-100.\nCheckbox “Rodzaje mutacji” pozwala wybrać mutację. Można wybrać od zera do czterech mutacji (ich szczegóły zostały omówione w sekcji sprawozdania “Algorytm”):\n\nzmiana gospodarza\nzmiana kolejki\nzmiana godziny 1. część sezonu\nzmiana godziny 2. część sezonu\n\nPole “Procentowa ilość mutacji” pozwala podać jaki odsetek populacji ma zostać zmutowany. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 0-100.\nPole “Stopień mutacji” pozwala podać jaki odsetek meczów w danym osobniku ma zostać zmutowany. Aplikacja daje możliwość wpisania parametru jedynie z zakresu 0-100.\nPrzycisk “Oblicz” rozpoczyna obliczenia algorytmu. W przypadku wyświetlenia się komunikatu o błędzie należy zmienić parametry i ponownie kliknąć przycisk.\nPrzycisk “Wyczyść” ustawia wszystkie pola liczbowe jako puste."
+  },
+  {
+    "objectID": "Model zagadnienia.html",
+    "href": "Model zagadnienia.html",
+    "title": "Model zagadnienia",
+    "section": "",
+    "text": "Zagadnienie harmonogramowania meczów w Premier League ma na celu skonstruowanie efektywnego i atrakcyjnego harmonogramu spotkań na dany sezon ligi piłkarskiej. Harmonogram meczów ma ogromne znaczenie zarówno sportowe, jak i komercyjne. Ma za zadanie maksymalizować atrakcyjność dla kibiców, zapewnić uczciwą rywalizację oraz uwzględniać wiele złożonych ograniczeń.\n\n\n\n\nDane dotyczące popularności danej drużyny.\nInformacje związane z godzinami oraz dniami, w których kibice najchętniej oglądają mecze.\nDane dotyczące obecnych godzin rozegranych spotkań, oraz w jakich dniach.\nInformacje dotyczące stadionu.\n\n\n\n\n\nNie przewidujemy spotkań nierozegranych z przyczyn losowych np. pogodowych. Oznacza to, że mecz zaplanowany na dany dzień i godzinę odbędzie się.\nNie uwzględniamy meczów pucharowych, z tego względu nie planujemy spotkań w ciągu tygodnia. Możliwe terminy spotkań to piątek, sobota, niedziela oraz poniedziałek (tak jak jest to w rzeczywistości).\nKażda drużyna gra na innym stadionie."
+  },
+  {
+    "objectID": "Model zagadnienia.html#zagadnienie-stworzenia-terminarzu-spotkań-premier-league",
+    "href": "Model zagadnienia.html#zagadnienie-stworzenia-terminarzu-spotkań-premier-league",
+    "title": "Model zagadnienia",
+    "section": "",
+    "text": "Zagadnienie harmonogramowania meczów w Premier League ma na celu skonstruowanie efektywnego i atrakcyjnego harmonogramu spotkań na dany sezon ligi piłkarskiej. Harmonogram meczów ma ogromne znaczenie zarówno sportowe, jak i komercyjne. Ma za zadanie maksymalizować atrakcyjność dla kibiców, zapewnić uczciwą rywalizację oraz uwzględniać wiele złożonych ograniczeń."
+  },
+  {
+    "objectID": "Model zagadnienia.html#konieczne-do-rozwiązania-problemu-są-takie-informacje-jak",
+    "href": "Model zagadnienia.html#konieczne-do-rozwiązania-problemu-są-takie-informacje-jak",
+    "title": "Model zagadnienia",
+    "section": "",
+    "text": "Dane dotyczące popularności danej drużyny.\nInformacje związane z godzinami oraz dniami, w których kibice najchętniej oglądają mecze.\nDane dotyczące obecnych godzin rozegranych spotkań, oraz w jakich dniach.\nInformacje dotyczące stadionu."
+  },
+  {
+    "objectID": "Model zagadnienia.html#przyjęte-uproszczenia",
+    "href": "Model zagadnienia.html#przyjęte-uproszczenia",
+    "title": "Model zagadnienia",
+    "section": "",
+    "text": "Nie przewidujemy spotkań nierozegranych z przyczyn losowych np. pogodowych. Oznacza to, że mecz zaplanowany na dany dzień i godzinę odbędzie się.\nNie uwzględniamy meczów pucharowych, z tego względu nie planujemy spotkań w ciągu tygodnia. Możliwe terminy spotkań to piątek, sobota, niedziela oraz poniedziałek (tak jak jest to w rzeczywistości).\nKażda drużyna gra na innym stadionie."
+  },
+  {
+    "objectID": "Model zagadnienia.html#struktury-danych",
+    "href": "Model zagadnienia.html#struktury-danych",
+    "title": "Model zagadnienia",
+    "section": "Struktury danych",
+    "text": "Struktury danych\n\n\\(t_i, w_i\\) - nazwa oraz waga (poziom atrakcyjności) i-tej drużyny\n\\(s_i\\) - atrakcyjność stadionu i-tej drużyny\n\\(id_i\\) - id i-tego meczu\n\\(r_i\\) - atrakcyjność i-tej kolejki\n\\(h_i\\) - atrakcyjność i-tej godziny meczu\n\\(K\\) - liczba meczów w sezonie"
+  },
+  {
+    "objectID": "Model zagadnienia.html#warunki-ograniczające",
+    "href": "Model zagadnienia.html#warunki-ograniczające",
+    "title": "Model zagadnienia",
+    "section": "Warunki ograniczające",
+    "text": "Warunki ograniczające\n\nKażda drużyna musi zagrać z każdą z pozostałych dwa mecze (jeden u siebie, a drugi na wyjeździe)\nW danej kolejce drużyna może rozegrać dokładnie jeden mecz.\nTerminy kolejek są ściśle ustalone.\nMinimalny „odpoczynek” drużyny po meczu to 4 dni.\nMaksymalna liczba meczy domowych z rzędu wynosi 2 mecze."
+  },
+  {
+    "objectID": "Model zagadnienia.html#postać-rozwiązania",
+    "href": "Model zagadnienia.html#postać-rozwiązania",
+    "title": "Model zagadnienia",
+    "section": "Postać rozwiązania",
+    "text": "Postać rozwiązania\n\nStworzenie terminarza zawierającego daty wraz z godzinami dla wszystkich meczów w danym sezonie Premier League."
+  },
+  {
+    "objectID": "Model zagadnienia.html#postać-funkcji-celu",
+    "href": "Model zagadnienia.html#postać-funkcji-celu",
+    "title": "Model zagadnienia",
+    "section": "Postać funkcji celu",
+    "text": "Postać funkcji celu\n\nMaksymalizacja atrakcyjności meczów możliwych do obejrzenia przez kibica, przy uwzględnieniu ograniczeń.’\n\n\\[\nF_{celu} = \\sum_{id = 1}^K A_{id}\n\\]\ngdzie:\n\n\\(A_{id} = w_i * w_j * s_i* h_k * r_l\\)"
+  },
+  {
+    "objectID": "Model zagadnienia.html#dopuszczalność-rozwiązania---spełnienie-ograniczeń",
+    "href": "Model zagadnienia.html#dopuszczalność-rozwiązania---spełnienie-ograniczeń",
+    "title": "Model zagadnienia",
+    "section": "Dopuszczalność rozwiązania - spełnienie ograniczeń:",
+    "text": "Dopuszczalność rozwiązania - spełnienie ograniczeń:\n\nRozwiązanie musi spełniać wszystkie określone ograniczenia czasowe, logistyczne i sportowe, takie jak minimalny “odpoczynek” drużyn czy liczba meczy domowych z rzędu."
+  },
+  {
+    "objectID": "Algorytm.html",
+    "href": "Algorytm.html",
+    "title": "Algorytm",
+    "section": "",
+    "text": "Algorytm ewolucyjny przeszukuje przestrzeń rozwiązań problemu w celu wyszukania najlepszego rozwiązania. Sposób działania algorytmu wzorowany jest na ewolucji biologicznej.\n\n\n\nPseudokod algorytmu genetycznego"
+  },
+  {
+    "objectID": "Algorytm.html#pseudokod",
+    "href": "Algorytm.html#pseudokod",
+    "title": "Algorytm",
+    "section": "",
+    "text": "Algorytm ewolucyjny przeszukuje przestrzeń rozwiązań problemu w celu wyszukania najlepszego rozwiązania. Sposób działania algorytmu wzorowany jest na ewolucji biologicznej.\n\n\n\nPseudokod algorytmu genetycznego"
+  },
+  {
+    "objectID": "Algorytm.html#elementy-algorytmu-ewolucyjnego",
+    "href": "Algorytm.html#elementy-algorytmu-ewolucyjnego",
+    "title": "Algorytm",
+    "section": "Elementy algorytmu ewolucyjnego",
+    "text": "Elementy algorytmu ewolucyjnego\n\nMetoda kodowania\nMetoda inicjalizacji populacji początkowej\nMetoda selekcji\nKrzyżowanie\nMutacja\nParametry sterujące pracą algorytmu"
+  },
+  {
+    "objectID": "Algorytm.html#metoda-kodowania",
+    "href": "Algorytm.html#metoda-kodowania",
+    "title": "Algorytm",
+    "section": "1. Metoda kodowania",
+    "text": "1. Metoda kodowania\n\nWariant ułożenia genów: klasyczny\nGenotyp w postaci macierzy zespołów o wymiarze 20x20.\nWartości przechowywane w genach są obiektami klasy “Match”.\nKażdy gen (obiekt) zawiera wszystkie parametry danego meczu tj.:\n\nDrużyna nr 1 (gospodarz)\nDrużyna nr 2 (gość)\nGodzina\nKolejka\nStadion\n“Koszt” danego meczu"
+  },
+  {
+    "objectID": "Algorytm.html#metoda-inicjalizacji-populacji-początkowej",
+    "href": "Algorytm.html#metoda-inicjalizacji-populacji-początkowej",
+    "title": "Algorytm",
+    "section": "2. Metoda inicjalizacji populacji początkowej",
+    "text": "2. Metoda inicjalizacji populacji początkowej\nInicjalizacja populacji początkowej odbywa się w sposób losowy. W praktyce oznacza to generowanie populacji rozwiązań początkowych zgodnie z rozkładem równomiernym, przy uwzględnieniu ograniczeń."
+  },
+  {
+    "objectID": "Algorytm.html#metoda-selekcji",
+    "href": "Algorytm.html#metoda-selekcji",
+    "title": "Algorytm",
+    "section": "3. Metoda selekcji",
+    "text": "3. Metoda selekcji\nW naszym algorytmie zaimplementowaliśmy dwie metody wyboru nowej populacji. W każdej z metod przewidziano możliwość uwzględnienia elity (pojęcie rozwinięte poniżej).\nSelekcja rankingowa\nWybór osobników do kolejnej generacji dokonywany jest na podstawie rankingu utworzonego na bazie wartości funkcji kosztu każdego meczu. Osobniki na wyższych miejscach mają większą szansę na zostanie rodzicami nowej generacji. Parametry rankingu ustalane sa przez uzytkownika.\nSelekcja turniejowa\nZ populacji wybiera się ilość osobników (tzw. rozmiar turnieju, która kwalifikuje się do zawodów). Następnie dwa najlepsze osobniki są wybierane jako rodzice dla nowego osobnika. Rozmiar turnieju jest stały dla każdej instancji testowej, jednak jego dobór jest losowy.\nElita\nParametr podawany jest w postaci procentów. Oznacza jaki odsetek najlepszych rodziców z poprzedniej generacji może przejść do kolejnej. Jest to możliwość, a nie wymóg, zatem jeśli żaden rodzic nie okaże się dostatecznie dobry to po prostu nastąpi całkowita zmiana."
+  },
+  {
+    "objectID": "Algorytm.html#krzyżowanie",
+    "href": "Algorytm.html#krzyżowanie",
+    "title": "Algorytm",
+    "section": "4. Krzyżowanie",
+    "text": "4. Krzyżowanie\nKolejnym ważnym etapem algorytmu jest etap mutacji oraz krzyżowania. Operacja krzyżowania rozumiemy analogicznie do rozmnażania osobników w przyrodzie, oznacza to że nowo utworzony potomek otrzyma losową kombinację genów od dwóch rodziców, dla naszego algorytmu operacja krzyżowania wygląda następująco. Wybieramy jeden z rodzajów selekcji, która wybiera dwóch rodziców, w kolejnym kroku wybieramy mecze z pierwszej części sezonu pierwszego rodzica, natomiast od drugiego rodzica z drugiej części sezonu, analogicznie tworzymy drugiego potomka, z tą różnicą że odwrotnie wybieramy pierwszą oraz drugą część sezonu. Następnie przechodzimy do operacji mutacji, która polega na zróżnicowaniu osobników, jest stosowana dla kilku losowych osobników populacji. Dzięki mutacjom otrzymujemy duża różnorodność rozwiązań, jednak powoduje to również zepsucie dobrego rozwiązania. Mutacje mogą polegać na:\n\nzmianie wartości losowo wybranego genu\nzmianie kilku losowo wybranych genów\nprzesunięciu genów\noperacji inwersji\noperacji tasującej, czyli zmianie położeń genów"
+  },
+  {
+    "objectID": "Algorytm.html#mutacja",
+    "href": "Algorytm.html#mutacja",
+    "title": "Algorytm",
+    "section": "5. Mutacja",
+    "text": "5. Mutacja\nZmiana gospodarza\nPolega ona na wybraniu danego odsetka meczów (podanego poprzez parametr “Stopień mutacji”) z terminarza, a następnie w każdym z nich zamianie gospodarza z gościem. Aby uniknąć błędów w terminie meczu rewanżowego drużyny są również zmieniane. Zatem zmiany zachodzą parami.\nZmiana kolejki\nPolega ona na wybraniu danego odsetka par meczów (podanego poprzez parametr “Stopień mutacji”) z terminarza, a następnie zamianie między nimi kolejek. Dokonywanie zmian parami pozwala uniknąć błędów.\nZmiana godzin w 1. części sezonu\nPolega ona na wybraniu danego odsetka par meczów (podanego poprzez parametr “Stopień mutacji”) z terminarza w pierwszej części sezonu, a następnie zamianie między nimi godzin. Zmiany dokonywane są parami, a oba mecze są w obrębie jednej kolejki. Pozwala to uniknąć potencjalnych błędów.\nZmiana godzin w 2. części sezonu\nMutacja bardzo zbliżona do powyższej. Polega ona na wybraniu danego odsetka par meczów (podanego poprzez parametr “Stopień mutacji”) z terminarza w drugiej części sezonu, a następnie zamianie między nimi godzin. Zmiany dokonywane są parami, a oba mecze są w obrębie jednej kolejki. Pozwala to uniknąć potencjalnych błędów."
+  },
+  {
+    "objectID": "Testy.html",
+    "href": "Testy.html",
+    "title": "Testy",
+    "section": "",
+    "text": "Pierwszym etapem testów, było sprawdzenie poprawności zaimplementowanego algorytmu. Nasze testy rozpoczeliśmy od mniejszej ilości zespołów, a następnie sprawdzaliśmy poprawność działania. Celem takiego działania było sprawdzenie czy algorytm zachowuje się poprawnie dla prostszego problemu, który był dla nas łatwiejszy do analizy. W kolejnym kroku zajeliśmy się testowanie poszczególnych funkcji juz dla naszego problemu, każdą funkcję testowaliśmy po jej implementacji w sposób ręczny, to znaczy sprawdzaliśmy czy dana funkcja zachowuje się tak jak zaplanowaliśmy, dzięki temu szybko mogliśmy wyeliminować błędy oraz sprawdzić poprawność algorytmu. W ostatniej części zajeliśmy się napisaniem kilku unit testów w Pythonie, które jeszcze raz miały za zadanie sprawdzić czy dane funkcję zachowują się prawidłowo."
+  },
+  {
+    "objectID": "Testy.html#scenariusze-testów",
+    "href": "Testy.html#scenariusze-testów",
+    "title": "Testy",
+    "section": "",
+    "text": "Pierwszym etapem testów, było sprawdzenie poprawności zaimplementowanego algorytmu. Nasze testy rozpoczeliśmy od mniejszej ilości zespołów, a następnie sprawdzaliśmy poprawność działania. Celem takiego działania było sprawdzenie czy algorytm zachowuje się poprawnie dla prostszego problemu, który był dla nas łatwiejszy do analizy. W kolejnym kroku zajeliśmy się testowanie poszczególnych funkcji juz dla naszego problemu, każdą funkcję testowaliśmy po jej implementacji w sposób ręczny, to znaczy sprawdzaliśmy czy dana funkcja zachowuje się tak jak zaplanowaliśmy, dzięki temu szybko mogliśmy wyeliminować błędy oraz sprawdzić poprawność algorytmu. W ostatniej części zajeliśmy się napisaniem kilku unit testów w Pythonie, które jeszcze raz miały za zadanie sprawdzić czy dane funkcję zachowują się prawidłowo."
+  },
+  {
+    "objectID": "Testy.html#metodyka-badań-i-testy",
+    "href": "Testy.html#metodyka-badań-i-testy",
+    "title": "Testy",
+    "section": "Metodyka badań i testy",
+    "text": "Metodyka badań i testy\nW naszych badaniach nad algorytmem sprawdzimy jak poszczególne parametry wpływają na wynik końcowy.\nTest 1\nAutor: Klaudiusz Grobelski\nPierwszym z nich będzie rozmiar populacji początkowej, dla czterech różnych wielkości populacji początkowych sprawdzimy zachowanie się algorytmu. Dla wszystkich zastosujemy:\n\nrozmiar pokolenia 30,\nselekcję turniejową,\nwielkość turnieju 10,\nprocent elity 5%,\nrodzaj mutacji zmiana gospodarza,\nprocentowa ilość mutacji 10%,\nstopień mutacji 10,\n\nOtrzymane wyniki:\n\nwielkość populacji początkowej 20\n\nFunkcja celu 128138,76\n\n\nwielkość populacji początkowej 40\n\nFunkcja celu 183101,45\n\n\nwielkość populacji początkowej 60\n\nFunkcja celu 169624,29\n\n\nwielkość populacji początkowej 80\n\nFunkcja celu 227747,8\n\n\n\nWnioski: Wielkość populacji wpływa na wynik czym jest ona większa tym funkcja celu znajduję większy wynik\nTest 2\nAutor: Klaudiusz Grobelski\nDrugim badanym parametrem będzie rozmiar pokolenia, również przetestujemy dla czterech różnych rozmiarów. Dla wszystkich zastosujemy:\n\nrozmiar populacji poczatkowej 40\nselekcję turniejową,\nwielkość turnieju 10,\nprocent elity 5%,\nrodzaj mutacji zmiana gospodarza,\nprocentowa ilość mutacji 10%,\nstopień mutacji 10%,\n\nOtrzymane wyniki:\n\nwielkość pokolenia 10\n\nFunkcja celu 159480,86\n\n\nwielkość pokolenia 30\n\nFunkcja celu 152456,27\n\n\nwielkość pokolenia 50\n\nFunkcja celu 166339,8\n\n\nwielkość pokolenia 70\n\nFunkcja celu 152625,78\n\n\n\nWnioski: Rozmiar pokolenia ma znaczenie na działanie algorytmu, dzięki większej ilości algorytm może zbadać więcej możliwych rozwiązań.\nTest 3\nAutor: Klaudiusz Grobelski\nKolejnym parametrem będzie badanie rodzaju selekcji. Dla pozostałych parametrów zastosujemy poszczególne wartości:\n\nrozmiar populacji poczatkowej 40\nrozmiar pokolenia 30,\nwielkość turnieju 10,\nprocent elity 5%,\nrodzaj mutacji zmiana gospodarza,\nprocentowa ilość mutacji 10%,\nstopień mutacji 10%,\n\nOtrzymane wyniki:\n\nselekcja turniejowa\n\nFunkcja celu 150496,82\n\n\nselekcja rankingowa\n\nFunkcja celu 162395,48\n\n\n\nWnioski: Selekcja truniejowa oraz rankingowa dobrze znajdują maksimum, żadna z metod nie jest znacząco lepsza od drugiej.\nTest 4\nAutor: Klaudiusz Grobelski\nNastępnie przejdziemy do testowania wielkości turnieju oraz rankingu. Zastosujemy poniższe parametry:\n\nrozmiar populacji poczatkowej (40 mozna zmienic i najlepiej by bylo zeby zawsze byla taka sama wiec nie wiem czy przez gui to pojdzie i nie trzeba bedzie recznie tego zrobic),\nrozmiar pokolenia 30, (można zmienic)\nselekcję turniejową oraz rankingową\nprocent elity 5%,\nrodzaj mutacji zmiana gospodarza,\nprocentowa ilość mutacji 10%,\nstopień mutacji 10%,\n\nOtrzymane wyniki:\n\nselekcja turniejowa\n\nrozmiar turnieju 5\n\nFunkcja celu 149361,12\n\n\n\n\n\nrozmiar turnieju 10\n\nFunkcja celu 174147,93\n\n\nrozmiar turnieju 20\n\nFunkcja celu 163348,26\n\n\n\n\nWnioski: Wielkość turnieju ma znaczenie, dla działania algorytmu natomiast zbyt duży turniej powoduje, że zostają też krzyżowane juz znaczenie słabsze gatunki z wybranego pokolenia, co powoduje mniejsze poprawienie funkcji celu.\n\nselekcja rankingowa\n\nrozmiar rankingu 5\n\nFunkcja celu 153323,84\n\n\nrozmiar rankingu 10\n\nFunkcja celu 150997,04\n\n\nrozmiar rankingu 20\n\nFunkcja celu 171588,25\n\n\n\n\nWnioski: Dla selekcji rankingowej im większa wielkość rankingu tym lepszy wynik znajduje algorytm.\nTest 5\nAutor: Szymon Pająk\nKolejnym parametrem do testów jest procentowa ilość elity w pokoleniu, sprawdzimy dla trzech różnych wartości. Pozostałe parametry wyglądają następująco:\n\nrozmiar populacji poczatkowej: 40,\nrozmiar pokolenia: 30,\nselekcja turniejowa\nwielkość turnieju: 10,\nrodzaj mutacji: zmiana gospodarza,\nprocentowa ilość mutacji: 10%,\nstopień mutacji: 10%,\n\nOtrzymane wykresy:\n\nElita: 10%\n\nFunkcja celu: 147900.8\n\n\nElita: 20%\n\nFunkcja celu: 161188.74\n\n\nElita: 50%\n\nFunkcja celu: 216706.32\n\n\n\nWniosek: Większy odsetek elity pozytywnie wpływa na działanie algorytmu. Jest tak, ponieważ najlepsze osobniki mają szansę przetrwać więcej niż jedno pokolenie.\nTest 6\nAutor: Szymon Pająk\nNastępnie sprawdzimy jak wybór poszczególnych mutacji oraz ich połączeń daje najlepszy wynik końcowy. Pozostałe parametry wyglądają następująco:\n\nrozmiar populacji poczatkowej: 40,\nrozmiar pokolenia: 30,\nselekcja turniejowa\nwielkość turnieju: 10,\nprocent elity: 5%,\nprocentowa ilość mutacji: 10%,\nstopień mutacji: 10%,\n\nOtrzymane wykresy:\n\nZmiana godziny\n\nFunkcja celu: 178017.71\n\n\nZmiana kolejki\n\nFunkcja celu: 167399.82\n\n\nZmiana godziny 1. część sezonu\n\nFunkcja celu: 141450.49\n\n\nZmiana godziny 2. część sezonu\n\nFunkcja celu: 135657.01\n\n\nZmiana godziny oraz zmiana kolejki\n\nFunkcja celu: 193558.93\n\n\nZmiana godziny 1. część sezonu oraz zmiana godziny 2. część sezonu\n\nFunkcja celu: 153268.18\n\n\nZmiana godziny, zmiana kolejki, zmiana godziny 1. część sezonu oraz zmiana godziny 2. część sezonu\n\nFunkcja celu: 175136.87\n\n\n\nWniosek: Przy stosowaniu tylko jednego rodzaju mutacji najlepszym rozwiązaniem będzie zamiana gospodarza meczu. Kolejnym dobrym, lecz nieco gorszym rozwiązaniem będzie zmiana kolejki. Najsłabiej wypadają zmiany godziny rozgrywania meczów wewnątrz danej kolejki. Zgodnie z oczekiwaniem zmiana w 1. części sezonu daje zbliżone efekty do zmiany w 2. części sezonu. Jeśli chodzi o stosowanie mutacji parami to po tym co zostało zaobserwowane w przypadku stosowania pojedynczych mutacji, zgodnie z tym czego się spodziewaliśmy kombinacja zmiany godziny i zmiany kolejki okazała się lepsza. Dodatkowo zaobserwowano, że zmienianie godzin w obu częściach sezonu sprawia, że funkcja celu z biegiem iteracji osiąga coraz mniejsze wartości. Zastosowanie wszystkich czterech rodzajów mutacji sprawiło, że funkcja celu osiągnęła wartość pomiędzy tą osiągniętą w przypadku zmiany gospodarza i kolejki oraz godzin w obu częściach sezonu. Optymalne zatem jest stosowanie dwóch rodzajów mutacji: zmiany gospodarza oraz zmiany kolejki.\nTest 7\nAutor: Szymon Pająk\nPrzedostatnim testowanym parametrem będzie, sprawdzenie jakie znaczenie ma procentowa ilość mutacji na znalezienie maksimum. Dla wszystkich parametrów zastosujemy:\n\nrozmiar populacji poczatkowej: 40,\nrozmiar pokolenia: 30,\nselekcja turniejowa\nwielkość turnieju: 10,\nprocent elity: 5%,\nrodzaj mutacji: zmiana gospodarza,\nstopień mutacji: 10%,\n\nOtrzymane wykresy:\n\nProcent mutacji: 5%\n\nFunkcja celu: 184958.03\n\n\nProcent mutacji: 10%\n\nFunkcja celu: 197068.89\n\n\nProcent mutacji: 25%\n\nFunkcja celu: 170059.39\n\n\n\n\n\nProcent mutacji: 50%\n\nFunkcja celu: 138087.16\n\n\n\nWniosek: Zwiększenie procentu mutacji pozytywnie wpływa na działanie algorytmu jedynie do czasu, ponieważ w pewnym momencie zmiany w każdej iteracji są zbyt duże. Zbyt duża liczba mutowanych osobników sprawia, że “gubimy” dobre rozwiązania i je zmieniamy.\nTest 8\nAutor: Szymon Pająk\nOstatnim parametrem, który został poddany badaniom był stopień mutacji w algorytmie, to znaczy jak bardzo osobnik z pokolenia ma zostać zmutowany. Pozostałe parametry prezentują się następująco:\n\nrozmiar populacji poczatkowej: 40,\nrozmiar pokolenia: 30,\nselekcja turniejowa\nwielkość turnieju: 10,\nprocent elity: 5%,\nrodzaj mutacji: zmiana gospodarza,\nprocentowa ilość mutacji: 10%,\n\nOtrzymane wykresy:\n\nStopień mutacji: 5%\n\nFunkcja celu: 155456.05\n\n\nStopień mutacji: 10%\n\nFunkcja celu: 177505.44\n\n\nStopień mutacji: 25%\n\nFunkcja celu: 140462.74\n\n\n\nWniosek: Zwiększenie stopnia mutacji pozytywnie wpłynęło na działanie algorytmu, jednakże tylko do pewnego stopnia. Zbyt duże mutowanie danego osobnika sprawia, że wynik pogarsza się.\nW naszych testach zajeliśmy się również badaniem złożoności czasowej oraz pamięciowej w zależności od wielkości populacji.\nW pierwszej części zajeliśmy się badaniem złożoności pamięciowej sprawdziliśmy jak zachowuję się dla pokolenia od rozmiaru 20 do 90. Podstawowe parametry ustawiliśmy następująco:\n\nrozmiar pokolenia 30,\nselekcję turniejową,\nwielkość turnieju 10,\nprocent elity 5%,\nrodzaj mutacji zmiana gospodarza,\nprocentowa ilość mutacji 10%,\nstopień mutacji 10,\n\n\nW drugiej części zajeliśmy się badanie czasu na wielkość pokolenia, przy takich samych pozostałych wartościach pozostałych parametrów:\n\nWnioski: Zaobserwowaliśmy, że dla czas wykonania oraz zużycie pamięci jest zależne od wielkości pokolenia, im większe pokolenie tym większe zużycie pamięci oraz czasu."
+  }
+]
