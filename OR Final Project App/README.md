@@ -3,9 +3,18 @@
 This repository contains the code and files for optimizing the schedule of the Premier League using Operations Research techniques. App created as a final project for a subject Operations Research. It was made in pairs. As it is stated in the report the contributors are: Szymon Pająk (me) and Klaudiusz Grobelski (my colleague).
 
 ## Table of Contents
+- [Sample screenshots](#sample-screenshots)
 - [Usage](#usage)
 - [Final Report](#final-report)
 - [Contributing](#contributing)
+
+## Sample screenshots
+Here you can see some example screenshots of the app:
+
+<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%20170509.png" height="320" width="480">
+<img src="[http://url/image.png](https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%201708593.png)" height="320" width="480">
+<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%201709514.png" height="320" width="480">
+<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%201707352.png" height="320" width="480">
 
 ## Usage
 To open and use the application, follow these steps:
