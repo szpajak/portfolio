@@ -48,7 +48,8 @@ This project aims to scrape Premier League statistics from the **fbref.com** web
 This repository contains the code and files for optimizing the schedule of the Premier League using Operations Research techniques. It was created as a final project for an Operations Research subject, developed in collaboration by Szymon Pająk and Klaudiusz Grobelski.
 
 The example screenshot of the app:
-<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/Grafiki/app_start_screen.png" height="40" width="60">
+
+<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/Grafiki/app_start_screen.png" height="160" width="240">
 
 
 
