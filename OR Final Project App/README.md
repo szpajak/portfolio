@@ -12,9 +12,9 @@ This repository contains the code and files for optimizing the schedule of the P
 Here you can see some example screenshots of the app:
 
 <img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%20170509.png" height="320" width="480">
-<img src="[http://url/image.png](https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%201708593.png)" height="320" width="480">
-<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%201709514.png" height="320" width="480">
-<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%201707352.png" height="320" width="480">
+<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%201708593.png" height="600" width="500">
+<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%201709514.png" height="600" width="500">
+<img src="https://github.com/szpajak/portfolio/blob/main/OR%20Final%20Project%20App/report%20files/images/Zrzut%20ekranu%202024-03-17%201707352.png" height="480" width="600">
 
 ## Usage
 To open and use the application, follow these steps:
