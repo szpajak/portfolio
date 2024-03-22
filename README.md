@@ -13,7 +13,10 @@ Feel free to explore and dive into the details of each project to get a better u
 2. [OR Final Project App](#or-final-project-app)
 3. [Classification Mini Project](#classification-mini-project)
 4. [Predict Bulldozer Price](#predict-bulldozer-price)
-5. [Heart Disease Project](#heart-disease-project) 
+5. [Heart Disease Project](#heart-disease-project)
+6. To be added soon*.
+
+*Due to the current lack of time, some TensorFlow projects need to wait for final edits (to make them ready for public view). But it will change soon ;) 
 
 ## Premier League Stats
 
