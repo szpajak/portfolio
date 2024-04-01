@@ -35,15 +35,19 @@ An executable file will be created automatically, and the GUI for optimizing the
 
 ## Final Report
 Final report is a file about the optimization process, results and detailed description of our every move. Due to the fact that project was created as a final project at University its whole documentation is written in polish. There are two ways to view the report:
-1. HTML file
+
+**1. HTML file**
+
 To view the final report this way follow these steps:
-  1. Open the "FINAL REPORT" directory.
-  2. Open the "FINAL_REPORT.html" file in your web browser.
-  3. Enjoy the report.
-2. PDF file
+- Open the "FINAL REPORT" directory.
+- Open the "FINAL_REPORT.html" file in your web browser.
+- Enjoy the report.
+  
+**2. PDF file**
+
 Way to read report without forking the repository:
-  1. Open "FINAL REPORT PDF" directory.
-  2. Enjoy the report.
+- Open "FINAL REPORT PDF" directory.
+- Enjoy the report.
 
 ## Contributing
 Contributions are welcome! If you have any ideas or improvements, feel free to open an issue or create a pull request.
